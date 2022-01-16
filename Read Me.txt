@@ -1,0 +1,25 @@
+Steps
+-----
+- open below link (H2 DB)
+	http://localhost:8080/h2-console
+- login with defualt credetails
+ 	user = sa
+ 	password = ''
+	jdbc url = jdbc:h2:mem:tennis
+- run attached data script file (dml.sql)
+
+- to test rest api from below link 
+	http://localhost:8080/participants/getallparticipants
+
+
+
+
+Soruces
+#######
+
+full db diagram: 
+	https://my.vertabelo.com/model/ymVGxpXOnr5lNdqMFGMnsUnxoySzL0h7
+	https://vertabelo.com/blog/a-data-model-to-track-tennis-tournaments/
+
+
+attached code is very sample from task to state architecture design(spring boot, spring rest) 
